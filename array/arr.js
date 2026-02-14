@@ -78,8 +78,10 @@
 //  // replace
 //   arr.splice(3,1,645)
 
-let company = [ "bloomberg", "microsoft", " uber", " Google", " IBM", "Netflix"];
+// let company = [ "bloomberg", "microsoft", " uber", " Google", " IBM", "Netflix"];
 
-company.shift();
-company.splice(2,1,"ola");
-company.push(" amozan");
+// company.shift();
+// company.splice(2,1,"ola");
+// company.push(" amozan");
+
+// let r = prompt(" enter the number ")
