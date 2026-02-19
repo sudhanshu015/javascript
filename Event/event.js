@@ -18,23 +18,40 @@
 //     console.log("you are inside div")
 // };
 
-btn1.addEventListener( "click",()=>{
-    console.log("button was clicked - ")
-})
-btn1.addEventListener( "click",()=>{
-    console.log("button was clicked -  handler 2")
-})
-const handler3=() => {
-   console.log(" button1 was clicked - handler3 ")
-}
-btn1.addEventListener( "click",()=>{
-    console.log("button was clicked -  handler 3")
-})
+// btn1.addEventListener( "click",()=>{
+//     console.log("button was clicked - ")
+// })
+// btn1.addEventListener( "click",()=>{
+//     console.log("button was clicked -  handler 2")
+// })
+// const handler3=() => {
+//    console.log(" button1 was clicked - handler3 ")
+// }
+// btn1.addEventListener( "click",()=>{
+//     console.log("button was clicked -  handler 3")
+// })
 // btn1.addEventListenerEventListener( "click",()=>{
 //     console.log("button was clicked -  handler 4")
 // })
 // btn1.removeEventListener("click",()=>{
     
 // })
-btn1.removeEventListener("click",handler3)
-let div = document.querySelector("div");
+// btn1.removeEventListener("click",handler3)
+// let div = document.querySelector("div");
+
+    
+    
+    ///// QUESTION ///
+
+    let modeBtn= document.querySelector("#mode");
+     let currMode="light"//dark
+    modeBtn.addEventListener("click",()=>{
+      if(currMode==="light"){
+        currMode="dark"
+        document.querySelector("body").style.background
+      }else{
+        currMode="light"
+      }
+      console.log(currMode)
+    });
+    
